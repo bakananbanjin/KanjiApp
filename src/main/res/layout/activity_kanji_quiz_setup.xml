@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.constraint.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".KanjiQuizSetup"
+        tools:layout_editor_absoluteY="25dp">
+
+        <Button
+            android:id="@+id/btnQuizSelectGuessKanji"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/quizSetupGuessKanji"
+            android:textAllCaps="false"
+            app:layout_constraintEnd_toStartOf="@+id/divider2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnQuizSelectGuessTranslation"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/quizSetupGuessTranslation"
+            android:textAllCaps="false"
+            app:layout_constraintEnd_toStartOf="@+id/divider2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnQuizSelectGuessKanji" />
+
+        <Button
+            android:id="@+id/btnQuizSelectDrawKanji"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/quizSetupDrawKanji"
+            android:textAllCaps="false"
+            app:layout_constraintEnd_toStartOf="@+id/divider2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnQuizSelectGuessTranslation" />
+
+        <RadioGroup
+            android:id="@+id/rgInner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rgWhichAppear">
+
+            <RadioButton
+                android:id="@+id/rbGrade5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/quizSetupSchoollvl5"
+                android:clickable="false"
+                android:enabled="false"
+                android:textColor="@color/radiobuttonstate" />
+
+            <RadioButton
+                android:id="@+id/rbAll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="@color/checkbuttonsColor"
+                android:text="@string/quizSetupAllKanji"
+                android:checked="true"
+                android:textColor="@color/radiobuttonstate" />
+
+            <RadioButton
+                android:id="@+id/rbMyList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="52dp"
+                android:buttonTint="@color/checkbuttonsColor"
+
+                android:text="@string/quizSetupMyList"
+                android:textColor="@color/radiobuttonstate"
+                app:layout_constraintEnd_toStartOf="@+id/rbGrade3"
+                tools:layout_editor_absoluteY="126dp" />
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/rgHowAppear"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnQuizSelectMatch">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/quizSetupAppear" />
+
+            <RadioButton
+                android:id="@+id/rbRandom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="@color/checkbuttonsColor"
+                android:checked="true"
+                android:text="@string/quizSetupRandom"
+                android:textColor="@color/radiobuttonstate" />
+
+            <RadioButton
+                android:id="@+id/rbWRandom"
+                style="@style/Widget.AppCompat.CompoundButton.RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="@color/checkbuttonsColor"
+                android:text="@string/quizSetupWRandom"
+                android:textColor="@color/radiobuttonstate" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quizSetupWhich"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rgHowAppear" />
+
+        <RadioGroup
+            android:id="@+id/rgWhichAppear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+            <RadioButton
+                android:id="@+id/rbGrade1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/quizSetupSchoollvl1"
+                android:buttonTint="@color/checkbuttonsColor"
+                android:textColor="@color/radiobuttonstate"
+                tools:layout_editor_absoluteX="160dp"
+                tools:layout_editor_absoluteY="372dp" />
+
+            <RadioButton
+                android:id="@+id/rbGrade2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/checkbuttonsColor"
+                android:text="@string/quizSetupSchoollvl2"
+                android:textColor="@color/radiobuttonstate"
+                tools:layout_editor_absoluteX="228dp"
+                tools:layout_editor_absoluteY="305dp" />
+
+            <RadioButton
+                android:id="@+id/rbGrade3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:text="@string/quizSetupSchoollvl3"
+                android:textColor="@color/radiobuttonstate"
+                android:enabled="false"
+                tools:layout_editor_absoluteX="175dp"
+                tools:layout_editor_absoluteY="126dp" />
+
+            <RadioButton
+                android:id="@+id/rbGrade4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="false"
+                android:enabled="false"
+                android:text="@string/quizSetupSchoollvl4"
+                android:textColor="@color/radiobuttonstate" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/quizSetupHowMany"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rgInner" />
+
+        <RadioGroup
+            android:id="@+id/rgManyAppear"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/checkbuttonsColor"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5">
+
+
+            <RadioButton
+                android:id="@+id/rbx10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="@color/checkbuttonsColor"
+                android:checked="true"
+                android:text="@string/quizSetupx10"
+                android:textColor="@color/radiobuttonstate" />
+
+            <RadioButton
+                android:id="@+id/rbx20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="@color/checkbuttonsColor"
+                android:text="@string/quizSetupx20"
+                android:textColor="@color/radiobuttonstate" />
+
+            <RadioButton
+                android:id="@+id/rbx50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="@color/checkbuttonsColor"
+                android:text="@string/quizSetupx50"
+                android:textColor="@color/radiobuttonstate" />
+
+            <RadioButton
+                android:id="@+id/rbx100"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="@color/checkbuttonsColor"
+                android:text="@string/quizSetupx100"
+                android:textColor="@color/radiobuttonstate" />
+
+
+        </RadioGroup>
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="1dp"
+            android:layout_height="559dp"
+            android:background="?android:attr/listDivider"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RadioGroup
+            android:id="@+id/rgquizSetupTranslationReading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toTopOf="@+id/btnQuizSelectDrawKanji"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/btnQuizSelectGuessTranslation"
+            app:layout_constraintTop_toTopOf="@+id/btnQuizSelectGuessKanji">
+
+            <RadioButton
+                android:id="@+id/rbByTranslation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="@color/checkbuttonsColor"
+                android:checked="true"
+                android:text="@string/quizSetupByTranslation"
+                android:textColor="@color/radiobuttonstate" />
+
+            <RadioButton
+                android:id="@+id/rbByReading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="@color/checkbuttonsColor"
+                android:text="@string/quizSetupByReading"
+                android:textColor="@color/radiobuttonstate" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnQuizSelectMatch"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/quizSetupMatch"
+            android:textAllCaps="false"
+            app:layout_constraintEnd_toStartOf="@+id/divider2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnQuizSelectDrawKanji" />
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

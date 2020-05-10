@@ -1,0 +1,133 @@
+<resources>
+    <string name="app_name">MyKanji</string>
+    <string name="btnViewKanji">List all Kanjis</string>
+    <string name="btn2">Reset all Kanjis</string>
+    <string name="btnQuiz">Quiz</string>
+
+    <string name="btnErase">erase</string>
+    <string name="kanjiDrawbtnSkip">skip</string>
+    <string name="btnDrawInsert">insert</string>
+    <string name="btnDrawStartTest">start test</string>
+
+    <string name="btnMainTools">Edit Kanji</string>
+    <string name="btnMainLearn">Learn</string>
+    <string name="exit">Exit</string>
+
+
+    <string name="select">Displayed Kanji</string>
+    <string name="selectAll">All</string>
+
+    <string name="selectBySchool">School level</string>
+    <string name="selectBySchoolLvl1">Grade 1</string>
+    <string name="selectBySchoolLvl2">Grade 2</string>
+    <string name="selectBySchoolLvl3">Grade 3</string>
+    <string name="selectBySchoolLvl4">Grade 4</string>
+    <string name="selectBySchoolLvl5">Grade 5</string>
+
+    <string name="selectBySkill">By recollection</string>
+    <string name="selectBySkillLvl1">not at all</string>
+    <string name="selectBySkillLvl2">poorly</string>
+    <string name="selectBySkillLvl3">OK</string>
+    <string name="selectBySkillLvl4">good</string>
+    <string name="selectBySkillLvl5">perfect</string>
+
+    <string name="selectMyList">My list</string>
+
+    <string name="kanjiListMyList">My list</string>
+    <string name="kanjiListMyListSelectAll">Select all</string>
+    <string name="kanjiListMyListSelectAllShown">Select all seen</string>
+    <string name="kanjiListMyListSelectMode">Enter select mode</string>
+    <string name="kanjiListMyListReset">Reset my list</string>
+
+    <string name="kanjiListSort">Sort</string>
+    <string name="kanjiListSortByNumber">By number</string>
+    <string name="kanjiListSortByRecollection">By recollection</string>
+    <string name="kanjiListSortByStrokecount">By stokecount</string>
+
+    <string name="kanjiListReset">Reset Kanji</string>
+    <string name="selectBack">Back</string>
+
+
+    <string name="quizSetup">Quiz setup</string>
+    <string name="quizSetupAppear">How should Kanjis appear?</string>
+    <string name="quizSetupRandom">random</string>
+    <string name="quizSetupWRandom">weighted random</string>
+    <string name="quizSetupWhich">Which Kanji should appear?</string>
+    <string name="quizSetupMyList">My List</string>
+    <string name="quizSetupAllKanji">All</string>
+    <string name="quizSetupSchoollvl">Schoollvl</string>
+    <string name="quizSetupSchoollvl1">Grade 1</string>
+    <string name="quizSetupSchoollvl2">Grade 2</string>
+    <string name="quizSetupSchoollvl3">Grade 3</string>
+    <string name="quizSetupSchoollvl4">Grade 4</string>
+    <string name="quizSetupSchoollvl5">Grade 5</string>
+    <string name="quizSetupQuestion">Question</string>
+    <string name="quizSetupHowMany">How many Questions?</string>
+    <string name="quizSetupx10">x10</string>
+    <string name="quizSetupx20">x20</string>
+    <string name="quizSetupx50">x50</string>
+    <string name="quizSetupx100">x100</string>
+    <string name="quizSetupGuessKanji">recognize Kanji by</string>
+    <string name="quizSetupGuessTranslation">choose Kanji by: </string>
+    <string name="quizSetupDrawKanji">draw Kanji</string>
+    <string name="quizSetupbyReading">reading</string>
+    <string name="quizSetupbyTranslation">translation</string>
+    <string name="quizSetupByTranslation">translation</string>
+    <string name="quizSetupByReading">Reading</string>
+    <string name="quizSetupMatch">match Kanjis</string>
+
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+
+    <string name="toolContextMenuNewStroke">add draw</string>
+    <string name="toolContextMenuCheckDraw">check draw</string>
+
+    <string name="quizHint">Hint</string>
+
+    <string name="resultTextvield">Result</string>
+    <string name="insertNewKanji">Insert new Kanji</string>
+    <string name="editKanjiKanji">Kanji: </string>
+    <string name="editKanjiOn">OnYomi: </string>
+    <string name="editKanjiKun">KunYomi: </string>
+    <string name="editKanjiTrans">Translation: </string>
+    <string name="editKanjiGrade">Schoolgrade: </string>
+    <string name="editKanjiStrokeCount">Strokecount: </string>
+    <string name="editKanjiMemory">Memory: </string>
+    <string name="editKanjiSelected">Add to Mylist</string>
+
+    <string name="next">next</string>
+
+    <string name="resultlearnDrawTest">draw test</string>
+    <string name="resultlearnMultichoice1">mc test 1</string>
+    <string name="resultlearnMultichoice2">mc test 2</string>
+
+
+    <string name="learninfo">My recommendation is that you practice every day 5 new Kanjis.
+    This section is structured as following: First you look at the new Kanji and practice the
+        Strokeorder go for and back and try to memorize the Kanjis befor start the Tests.\n
+        Then follows a series of test. </string>
+
+    <string name="learnresultinfo">The Kanji got added to your List and can be reviewed at the quiz section. (Just select MyList)</string>
+
+    <string name="learnTitle">Lets learn some Kanjis</string>
+    <string name="btnLearnReview">Review 5 already learned Kanjis </string>
+    <string name="btnLearnRandom">Learn 5 new Kanjis Random</string>
+    <string name="btnLearnList">Learn the next 5 Kanjis from List\n(recommanded)</string>
+
+    <string name="infoLink">http://bakananbanjin.byethost7.com</string>
+    <string name="infoMail">bakananbanjin@tutanota.com</string>
+    <string name="infoTwitter">https://twitter.com/bakananbanjin</string>
+    <string name="infoAPP">Application develloped by Bakananbanjin (me) \nAll graphics were created by me with Paint.net (except Icon/ Picture in MainHub, this is just a picture I took in Japan)
+    \nFeel free to contact me by mail (response time varies) or check the Webpage (still under development) for more information and maybe a small manuel.
+    \nAnd of course you can follow me on Twitter.</string>
+
+    <string name="stringInsertEditKanji">Insert/Edit Kanji</string>
+    <string name="stringInfoTitle">Info</string>
+    <string name="stringDrawKanji">MyKanjiApp</string>
+    <string name="stringMainActivitiy">MyKanjiApp</string>
+    <string name="stringKanjiList">Kanji</string>
+    <string name="stringQuizResult">Quiz result</string>
+    <string name="stringQuizSetup">Quiz setup</string>
+    <string name="stringLearn">Lets learn!</string>
+
+</resources>

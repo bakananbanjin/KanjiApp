@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/toolscontextEditKanji"
+        android:title="@string/edit">
+        <color
+            android:color="#259999"></color>
+    </item>
+    <item android:id="@+id/toolscontextDeleteKanji"
+        android:title="@string/delete"/>
+    <item android:id="@+id/toolscontextAddDraw"
+        android:title="@string/toolContextMenuNewStroke"/>
+    <item android:id="@+id/toolscontextCheckDraw"
+        android:title="@string/toolContextMenuCheckDraw"/>
+</menu>

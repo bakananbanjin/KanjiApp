@@ -1,0 +1,81 @@
+<resources>
+    <style
+        name="AppTheme"
+        parent="@style/Base.Theme.AppCompat">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:windowBackground">@color/colorAccent</item>
+
+        <item name="android:actionBarStyle">@style/MyActionbar</item>
+        <item name="android:actionBarTabBarStyle">@style/MyActionBarTabText</item>
+        <item name="android:actionMenuTextColor">@color/textColor2</item>
+
+        <item name="actionBarStyle">@style/MyActionbar</item>
+        <item name="actionBarTabBarStyle">@style/MyActionBarTabText</item>
+        <item name="actionMenuTextColor">@color/textColor2</item>
+        <item name="android:itemTextAppearance">@style/myCustomMenuTextApearance</item>
+        <item name="actionOverflowMenuStyle">@style/CMOptionsMenu</item>
+        <item name="alertDialogTheme">@style/AlertDialogTheme</item>
+        <item name="alertDialogStyle">@style/AlertDialogTheme</item>
+
+        <item name="buttonStyle">@style/btn</item>
+
+    </style>
+
+    <style name="btn" parent="Widget.AppCompat.Button">
+
+
+    </style>
+
+    <style
+        name="MyActionbar"
+        parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="background">@color/colorPrimaryDark</item>
+        <item name="android:titleTextStyle">@style/MyActionBarTitleText</item>
+        <item name="titleTextStyle">@style/MyActionBarTitleText</item>
+    </style>
+
+    <style
+        name="MyActionBarTitleText"
+        parent="@style/Base.TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+    
+    <style 
+        name="MyActionBarTabText"
+        parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <style
+        name="myCustomMenuTextApearance"
+        parent="Base.Theme.AppCompat.CompactMenu">
+         parent="@android:style/TextAppearance.Widget.IconMenu.Item"> -->
+        <item name="android:actionMenuTextColor">@color/textColor</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <style name="CMOptionsMenu"
+        parent="Base.Theme.AppCompat">
+        <item name="android:popupBackground">@color/textColor2</item>
+    </style>
+
+    <style name="AlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="buttonBarNegativeButtonStyle">@style/NegativeButtonStyle</item>
+        <item name="buttonBarPositiveButtonStyle">@style/PositiveButtonStyle</item>
+        <item name="colorBackgroundFloating">@color/textColor2</item>
+    </style>
+    <style name="NegativeButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <style name="PositiveButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+</resources>

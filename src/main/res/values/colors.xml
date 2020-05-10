@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#202020</color>
+    <color name="textColor">#FFFFFF</color>
+    <color name="textColor2">#999999</color>
+    <color name="random">#01AAFF</color>
+    <color name="answercorrect">#59ff59</color>
+    <color name="answerfalse">#FF5959</color>
+    <color name="backgroundgrey">#D3D3D3</color>
+    <color name="checkbuttonsColor">#AFAFAF</color>
+</resources>

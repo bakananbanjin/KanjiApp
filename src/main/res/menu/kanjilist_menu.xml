@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.minami.mykanji.KanjiListActivity">
+    <item
+        android:id="@+id/kanjiListIcon"
+        android:title="Icon"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_search">>
+    </item>
+
+    <item
+        android:id="@+id/rootKanjiList"
+        android:title="@string/select">
+        <menu>
+            <item android:title="@string/selectAll"
+                android:id="@+id/kanjiListSelectAll"/>
+            <item android:title="@string/selectBySchool"
+                android:id="@+id/kanjiListSelectBySchool">
+                <menu>
+                    <item
+                        android:id="@+id/schoolLvl1"
+                        android:title="@string/selectBySchoolLvl1" />
+                    <item android:id="@+id/schoolLvl2"
+                        android:title="@string/selectBySchoolLvl2"/>
+                    <item android:id="@+id/schoolLvl3"
+                        android:title="@string/selectBySchoolLvl3"/>
+                    <item android:id="@+id/schoolLvl4"
+                        android:title="@string/selectBySchoolLvl4"/>
+                    <item android:id="@+id/schoolLvl5"
+                        android:title="@string/selectBySchoolLvl5"/>
+
+                </menu>
+            </item>
+            <item android:title="@string/selectBySkill"
+                android:id="@+id/kanjiListSelectBySkill">
+                <menu>
+                    <item android:id="@+id/skillLvl1"
+                        android:title="@string/selectBySkillLvl1"/>
+                    <item android:id="@+id/skillLvl2"
+                        android:title="@string/selectBySkillLvl2"/>
+                    <item
+                        android:id="@+id/skillLvl3"
+                        android:title="@string/selectBySkillLvl3" />
+                    <item
+                        android:id="@+id/skillLvl4"
+                        android:title="@string/selectBySkillLvl4" />
+                    <item
+                        android:id="@+id/skillLvl5"
+                        android:title="@string/selectBySkillLvl5" />
+
+                </menu>
+            </item>
+            <item android:id="@+id/selectMyList"
+                android:title="@string/selectMyList"/>
+
+        </menu>
+    </item>
+    <item
+        android:id="@+id/kanjiListMyList"
+        android:title="@string/kanjiListMyList" >
+        <menu>
+            <item android:title="@string/kanjiListMyListSelectAll"
+                android:id="@+id/myListselectAllKanjis"/>
+            <item android:title="@string/kanjiListMyListSelectMode"
+                android:id="@+id/myListselectMode"/>
+            <item android:title="@string/kanjiListMyListReset"
+                android:id="@+id/myListReset"/>
+
+        </menu>
+    </item>
+     <item
+         android:id="@+id/kanjiListSort"
+         android:title="@string/kanjiListSort" >
+         <menu>
+             <item android:title="@string/kanjiListSortByNumber"
+                 android:id="@+id/myListSortByNumber"/>
+             <item android:title="@string/kanjiListSortByRecollection"
+                 android:id="@+id/myListSortByRecollection"/>
+             <item android:title="@string/kanjiListSortByStrokecount"
+                 android:id="@+id/myListSortByStrokecount"/>
+            <item
+                 android:id="@+id/myListSortBack"
+                 android:enabled="false"
+                 android:title="@string/selectBack" />
+         </menu>
+     </item>
+    <item
+        android:id="@+id/reset"
+        android:title="@string/kanjiListReset" />
+    <item
+        android:id="@+id/info"
+        android:title="Info"
+        android:visible="false"/>
+
+
+</menu>

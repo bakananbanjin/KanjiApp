@@ -1,0 +1,240 @@
+1;一;イチ、イツ;ひと・つ;one;1;7;1;true;;k0001;-72
+2;二;ニ;ふた・つ;two;1;7;2;true;;k0002;0
+3;三;サン;み・つ、みっ・つ;three;1;8;3;true;;k0003;-72,0
+4;四;シ;よん、よ・つ、よっ・つ;four;1;7;5;true;;k0004;-4,-3,-72
+5;五;ゴ;いつ・つ;five;1;8;4;true;;k0005;-72,-73
+6;六;ロク;む・つ、むっ・つ、むい;six;1;7;4;true;;k0006;-1,-2
+7;七;シチ;なな・つ、なの;seven;1;5;2;true;;k0007;-89
+8;八;ハチ;や・つ、やっ・つ、よう;eight;1;5;2;true;;k0008;-2
+9;九;キュウ、ク;ここの・つ;nine;1;5;2;true;;k0009;-90
+10;十;ジュウ、ジッ;とお、と;ten;1;6;2;true;;k0010;-11
+11;日;ニチ、ジツ;ひ、か;day, sun, Japan;1;0;4;false;;k0011;-39
+12;月;ゲツ、ガツ;つき;month, moon;1;0;4;false;;k0012;-40
+13;火;カ;ひ、ほ;fire;1;0;4;false;;k0013;-74
+14;水;スイ;みず;water;1;0;4;false;;k0014;-82
+15;木;ボク、モク;き、こ;tree, wood;1;0;4;false;;k0015;-41
+16;金;キン、コン;かね、かな;gold, money;1;0;8;false;;k0016;-2,-28,-83
+17;土;ド、ト;つち;soil, earth;1;0;3;false;;k0017;-15
+18;円;エン;まる・い;round, circle, yen;1;0;4;false;;k0018;-4,-1
+19;上;ジョウ;うえ、うわ、あ・げる、あ・がる、のぼ・る;above, up;1;0;3;false;;k0019;-76,0
+20;下;カ、ゲ;した、しも、さ・げる、くだ・る、お・ろす;below, down, give, low, inferior, descend;1;0;3;false;;k0020;-72,-12
+21;左;サ;ひだり;left;1;0;5;false;;k0021;-75,-25
+22;右;ウ、ユウ;みぎ;right;1;0;5;false;;k0022;-91,-14
+23;大;ダイ、タイ;おお・きい、おお;large, big;1;0;3;false;;k0023;-19
+24;中;チュウ;なか;inside, middle, center;1;0;4;false;;k0024;-14,-76
+25;小;ショウ;ちい・さい、こ、お;little, small;1;0;3;false;;k0025;-18
+26;百;ヒャク;もも;hundred;1;0;6;false;;k0026;-77,-39
+27;千;セン;ち;thousand;1;0;3;false;;k0027;-84
+28;人;ニン、ジン;ひと;person;1;0;2;false;;k0028;-2
+29;子;ス、シ;こ;child;1;0;3;false;;k0029;-21
+30;男;ダン、ナン;おとこ;male, man;1;0;7;false;;k0030;-45,-7
+31;女;ジョ;おんな、め;female, women;1;0;3;false;;k0031;-20
+32;口;ク、コウ;くち;mouth;1;0;3;false;;k0032;-14
+33;目;モク、ボク;め、ま;eye;1;0;5;false;;k0033;-39
+34;耳;ジ;みみ;ear;1;0;6;false;;k0034;-50
+35;手;シュ;た、て;hand;1;0;4;false;;k0035;-92
+36;足;ソク;あし、た・りる、た・る、た・す;leg, foot, be sufficient;1;0;7;false;;k0036;-14,-120
+37;山;サン;やま;mountain;1;0;3;false;;k0037;-24
+38;田;デン;た;rice field, rice paddy;1;0;5;false;;k0038;-45
+39;川;セン;かわ;stream, river;1;0;3;false;;k0039;-88,-76
+40;石;セキ、シャク、コウ;いし;stone;1;0;5;false;;k0040;-75,-14
+41;竹;チク;たけ;bamboo;1;0;6;false;;k0041;-68
+42;文;プン、モン;ふみ;sentence, literature, style, art;1;0;4;false;;k0042;-1,-78
+43;字;ジ;あざ;character, letter, word;1;0;6;false;;k0043;-22,-21
+44;本;ホン;もと;book, present, main, origin, true, real;1;0;5;false;;k0044;-41,-72
+45;名;メイ、ミョウ;な;name, noted, reputation, distinguished;1;0;6;false;;k0045;-17,-14
+46;正;セイ、ショウ;ただ・しい、ただ・す、まさ;correct, justice, righteous;1;0;5;false;;k0046;-72,-43
+47;学;ガク;まな・ぶ;study, learning, science;1;0;8;false;;k0047;-58,-21
+48;校;コウ;・;exam, school;1;0;10;false;;k0048;-41,-1,-44
+49;先;セン;さき;before, ahead, previous;1;0;6;false;;k0049;-79,-76,-72,-3
+50;生;セイ、ショウ;い・きる、い・ける、う・まれる、は・える、なま;life, genuine, birth;1;0;5;false;;k0050;-79,-76,0
+51;年;ネン;とし;year;1;0;6;false;;k0051;-79,-15,-76
+52;花;カ;はな;flower;1;0;7;false;;k0052;-59,-56,-9
+53;草;ソウ;くさ;grass, weeds, herbs;1;0;9;false;;k0053;-59,-39,-11
+54;虫;チュウ;むし;insect, bug;1;0;6;false;;k0054;-14,-76,-87
+55;犬;ケン;いぬ;dog;1;0;4;false;;k0055;-19,-85
+56;貝;・;かい;shellfish;1;0;7;false;;k0056;-48,-2
+57;赤;セキ、シャク;あか・い、あか・らむ、あか・らめる;red;1;0;7;false;;k0057;-15,-88,-2
+58;青;セイ、ショウ;あお・い;blue, green;1;0;8;false;;k0058;-52,-40
+59;白;ハク、ビャク;しろ・い、しら;white;1;0;5;false;;k0059;-93
+60;力;リョク、リキ;ちから;power, strength, strong;1;0;2;false;;k0060;-7
+61;早;ソウ、サッ;はや・い、はや・まる、はや・める;early, fast;1;0;6;false;;k0061;-39,-11
+62;王;オウ;・;king, rule, magnate;1;0;4;false;;k0062;-52
+63;玉;ギョク;たま;ball, jewel;1;0;5;false;;k0063;-52,-85
+64;入;ニュウ;い・る、い・れる、はい・る;enter, insert;1;0;2;false;;k0064;-2
+65;出;シュツ;で・る、だ・す;exit, leave, go out, put out, come out;1;0;5;false;;k0065;-24,-86
+66;見;ケン;み・る、み・える、み・せる;see, idea, opinion, look at, visible, show, hopes;1;0;7;false;;k0066;-48,-3
+67;立;リュウ、リツ;た・つ、た・てる;stand up, rise, set up, erect;1;0;5;false;;k0067;-46
+68;休;キュウ;たす・む、やす・まる、やす・める;rest, break, retire, sleep;1;0;6;false;;k0068;-56,-41
+69;林;リン;はやし;grove, forest;1;0;8;false;;k0069;-41,-41
+70;森;シン;もり;forest, woods;1;0;12;false;;k0070;-41,-41,-41
+71;村;ソン;むら;village, town;1;0;7;false;;k0071;-41,-23
+72;町;チョウ;まち;town, village, city, street,;1;0;7;false;;k0072;-45,-60
+73;天;テン;あめ、あま;heavens, sky, imperial;1;0;4;false;;k0073;-72,-19
+74;気;キ、ケ;・;mind, spirit, air, mood;1;0;6;false;;k0074;-79,-72,-121,-78
+75;空;クウ;空、あ・ける、あ・く、から;sky, empty, vacuum, void;1;0;8;false;;k0075;-22,-3,-25
+76;雨;ウ;あめ、あま;rain;1;0;8;false;;k0076;-49
+77;夕;セキ;ゆう;evening;1;0;3;false;;k0077;-17
+78;音;オン、イン;おと、ね;sound, noise;1;0;9;false;;k0078;-46,-39
+79;車;シャ;くるま;car;1;0;7;false;;k0079;-51
+80;糸;シ;いと;thread;1;0;6;false;;k0080;-29,-18
+81;引;イン;ひ・く、ひ・ける;pull, tug, install, quote;2;0;4;false;;k0081;-33,-76
+82;羽;ウ;は、はね;feather;2;0;6;false;;k0082;-57,-57
+83;雲;ウン;くも;cloud;2;0;12;false;;k0083;-49,0,-66
+84;園;エン;その、ぞの;park, yard, garden, farm;2;0;13;false;;k0084;-5,-15,-14,-61,-72
+85;遠;エン、オン;とお・い、とお・ざかる;far, distant;2;0;13;false;;k0085;-15,-14,-61,-67
+86;何;カ;なに、なん;what;2;0;7;false;;k0086;-56,-60,-14
+87;科;カ;しな;department, section, course;2;0;9;false;;k0087;-53,-94
+88;夏;カ、ゲ;なつ;summer;2;0;10;false;;k0088;-77,-48,-16
+89;家;カ、ケ;いえ、や、（うち）;house, home, family, expert;2;0;10;false;;k0089;-22,-72,-95
+90;歌;カ;うた、うた・う;song, sing;2;0;14;false;;k0090;-60,-14,-60,-14,-42
+91;画;ガ、カク;・;picture, brush-stroke;2;0;8;false;;k0091;-72,-45,-86
+92;回;カイ、エ;まわ・す、まわ・る;round, -times;2;0;6;false;;k0092;-5,-14,-72
+93;会;カイ、エ;あ・う;meet, meeting, party, ;2;0;6;false;;k0093;-2,0,-66
+94;海;カイ;うみ;sea, ocean;2;0;9;false;;k0094;-62,-79,-54
+95;絵;カイ、エ;え;picture, drawing, painting, sketch;2;0;12;false;;k0095;-29,-18,-2,0,-66
+96;外;ガイ、ゲ;そと、ほか、はず・す;outside;2;0;5;false;;k0096;-17,-12
+97;角;カク;かど、すみ、つの;corner, square, angle, horn;2;0;7;false;;k0097;-8,-81,-76,0
+98;楽;ラク、ガク;たの・しい、たの・しむ;comfort, music, ease;2;0;13;false;;k0098;-93,-6,-96,-41
+99;活;カツ;い・きる;lively, resuscitation, living;2;0;9;false;;k0099;-62,-84,-14
+100;間;カン、ケン;あいだ、ま;space, interval;2;0;12;false;;k0100;-39,-81,0,-39
+101;丸;ガン;まる・い、まる・める;round, perfection, roll up;2;0;3;false;;k0101;-90,-85
+102;岩;ガン;いわ;rock, cliff, boulder;2;0;8;false;;k0102;-24,-75,-14
+103;顔;がん;かお;face, expression;2;0;18;false;;k0103;-46,-97,-35,-77,-48,-2
+104;汽;キ;・;steam, vapor;2;0;7;false;;k0104;-62,-79,-72,-121
+105;記;キ;しる・す;account, narrative, scribe;2;0;10;false;;k0105;-47,-26
+106;帰;キ;かえ・る;come back, homecoming, arrive at, lead to;2;0;10;false;;k0106;-80,-34,-5,-27
+107;弓;キュウ;ゆみ;bow;2;0;3;false;;k0107;-33
+108;牛;ギュウ;うし;cow;2;0;4;false;;k0108;-79,-11
+109;魚;ギョ;さかな、うお;fish;2;0;11;false;;k0109;-8,-45,-63
+110;京;キョウ、キン、ケイ;・;capital;2;0;8;false;;k0110;-1,-14,-18
+111;強;キョウ、ゴウ;つよ・い、とよ・まる、し・いる;strong;2;0;11;false;;k0111;-33,-66,-14,-76,-87
+112;教;キョウ;おし・える;teach, faith, doctrine;2;0;11;false;;k0112;-11,-75,-21,-79,-78
+113;近;キン、コン;ちか・い;near, early ;2;0;7;false;;k0113;-38,-67
+114;兄;ケイ、キョウ;あに;elder brother;2;0;5;false;;k0114;-14,-3
+115;形;ケイ、ギョウ;かた、かたち;form, shape, style;2;0;7;false;;k0115;-65,-35
+116;計;ケイ;はか・る;plan, plot, scheme, measure;2;0;9;false;;k0116;-47,-11
+117;元;ゲン、ガン;もと;beginning, origin, former time;2;0;4;false;;k0117;0,-3
+118;言;ゲン、ゴン;い・う、こと;say;2;0;7;false;;k0118;-47
+119;原;ゲン;はら;original, primitive, field, tundra;2;0;10;false;;k0119;-75,-93,-18
+120;戸;コ;と、へ;door;2;0;4;false;;k0120;-72,-98,-97
+121;古;コ;ふるい;old;2;0;5;false;;k0121;-11,-14
+122;午;ゴ;うま;noon, a.m.;2;0;4;false;;k0122;-79,-11
+123;後;ゴ、コウ;あと、おく・れる;behind, back, later;2;0;9;false;;k0123;-36,-29,-16
+124;語;ゴ;かた・る;word, speech, language;2;0;14;false;;k0124;-47,-72,-73,-14
+125;工;コウ、ク;・;craft, construction;2;0;3;false;;k0125;-25
+126;公;コウ;おおやけ;public, official, governmental;2;0;4;false;;k0126;-2,-66
+127;広;コウ;ひろ・い、ひろ・げる、ひろ・める;wide, broad, spacious;2;0;5;false;;k0127;-30,-66
+128;交;コウ;か・う、ま・じる、まじ・わる;mixing, mingle, coming & going;2;0;6;false;;k0128;-1,-44
+129;光;コウ;ひか・る、ひかり;light, ray;2;0;6;false;;k0129;-99,-72,-3
+130;考;コウ;かんが・える;think, consider;2;0;6;false;;k0130;-11,-75,-100
+131;行;ギョウ、コウ、アン;い・く、おこな・う、お・く;going, journey, happening;2;0;6;false;;k0131;-36,-72,-60
+132;高;コウ;たか・い、たか・まる;tall, high, expensive;2;0;10;false;;k0132;-1,-14,-4,-14
+133;黄;コウ、オウ;き;yellow;2;0;11;false;;k0133;-59,-72,-45,-2
+134;合;ゴウ;あ・う、あわ・せる;join, fit, meet, suit;2;0;6;false;;k0134;-2,-72,-14
+135;谷;コク、ヤ;たに;valley;2;0;7;false;;k0135;-2,-2,-14
+136;国;コク;くに;country;2;0;8;false;;k0136;-4,-52,-85,-72
+137;黒;コク;くろ・い;black;2;0;11;false;;k0137;-14,-52,-63
+138;今;コン;いま;now;2;0;4;false;;k0138;-2,-72,-101
+139;才;サイ;・;genius, years old;2;0;3;false;;k0139;-60,-97
+140;細;サイ;ほそ・い、こま・かい;thin, slender, narrow, dainty taper;2;0;11;false;;k0140;-29,-18,-45
+141;作;サク、サ;つく・る、つく・り;make, produce, build, prepare;2;0;7;false;;k0141;-56,-79,-76,0
+142;算;サン;・;calculate, divining, abacus;2;0;14;false;;k0142;-68,-48,-72,-88
+143;止;シ;とま・る、と・める;stop, halt;2;0;4;false;;k0143;-43
+144;市;シ;いち;market, city, town;2;0;5;false;;k0144;-1,-27
+145;矢;シ;や;arrow, dart;2;0;5;false;;k0145;-79,-19
+146;姉;シ;あね;elder sister;2;0;8;false;;k0146;-20,-1,-27
+147;思;シ;おも・い、おも・う;think;2;0;9;false;;k0147;-45,-37
+148;紙;シ;かみ;paper;2;0;10;false;;k0148;-29,-18,-102
+149;寺;ジ;てら;Buddhist temple;2;0;6;false;;k0149;-15,-23
+150;自;し、ジ;みずか・ら、おの・ずから;oneself;2;0;6;false;;k0150;-93,-72
+151;時;ジ;とき;time, hour;2;0;10;false;;k0151;-39,-15,-23
+152;室;ジツ;むろ;room, apartment, chamber;2;0;9;false;;k0152;-22,-72,-66,-15
+153;社;シャ;やしろ;company, firm, office, association, shrine;2;0;7;false;;k0153;-69,-15
+154;弱;ジャク;よわ・い、よわ・まる、よわ・る;weak, frail;2;0;10;false;;k0154;-33,-6,-33,-6
+155;首;ジュ;くび;neck;2;0;9;false;;k0155;-83,-93,-72
+156;秋;シュウ;あき;autumn;2;0;9;false;;k0156;-53,-74
+157;週;シュウ;・;week;2;0;11;false;;k0157;-81,-15,-14,-67
+158;春;シュン;はる;spring;2;0;9;false;;k0158;-72,0,-2,-39
+159;書;ショ;か・く;write;2;0;10;false;;k0159;-34,-28,-14
+160;少;ショウ;すく・ない、すこ・し;few, little;2;0;4;false;;k0160;-18,-97
+161;場;ジョウ;ば;location, place;2;0;12;false;;k0161;-103,-39,-72,-8,-104
+162;色;ショク、シキ;いろ;color;2;0;6;false;;k0162;-8,-105,-106
+163;食;ショク;た・べる、く・う;eat, food;2;0;9;false;;k0163;-2,-76,-34,-109
+164;心;シン;こころ;heart, mind, spirit;2;0;4;false;;k0164;-37
+165;新;シン;あたら・しい;new;2;0;13;false;;k0165;-46,-41,-38
+166;親;シン;おや、した・しい;parent, intimacy, relative;2;0;16;false;;k0166;-46,-41,-48,-3
+167;図;ズ;と、はか・る;map, drawing, plan;2;0;7;false;;k0167;-5,-85,-85,-2,-72
+168;数;スウ、ス;かず、かぞ・える;number;2;0;13;false;;k0168;-70,-20,-64
+169;西;サイ、セイ;にし;west;2;0;6;false;;k0169;-72,-5,-3,-72
+170;声;セイ;こえ;voice;2;0;7;false;;k0170;-15,-105,-97
+171;星;セイ、ショウ;ほし;star, spot;2;0;9;false;;k0171;-39,-79,-76,0
+172;晴;セイ;は・らす、は・れる、はれ;clear up;2;0;12;false;;k0172;-39,-52,-40
+173;切;セツ、サイ;き・る、き・り;cut, cutoff, be sharp;2;0;4;false;;k0173;-89,-71
+174;雪;セツ;ゆき、すす・ぐ;snow;2;0;11;false;;k0174;-49,-34
+175;船;セン;ふね;ship, boat;2;0;11;false;;k0175;-107,-2,-14
+176;線;セン;・;line, track;2;0;15;false;;k0176;-29,-18,-93,-82
+177;前;ゼン;まえ;before, in front;2;0;9;false;;k0177;-83,-40,-80
+178;組;ソ;くみ、く・む;association, unite, cooperate, construct;2;0;11;false;;k0178;-29,-18,-48
+179;走;ソウ;はし・る;run;2;0;7;false;;k0179;-15,-120
+180;多;タ;おお・い;many, much, frequent;2;0;6;false;;k0180;-17,-17
+181;太;タイ、タ;ふと・い、ふと・る;thick, fat, big, plumb;2;0;4;false;;k0181;-19,-85
+182;体;タイ;からだ;body, substance, object;2;0;7;false;;k0182;-56,-41,-72
+183;台;タイ、ダイ;うてな;pedestal, a stand;2;0;5;false;;k0183;-66,-14
+184;地;チ、ジ;つち;ground, earth;2;0;6;false;;k0184;-103,-108
+185;池;チ;いけ;pound, cistern;2;0;6;false;;k0185;-62,-108
+186;知;チ;し・る、し・らせる;know, wisdom;2;0;8;false;;k0186;-79,-19,-14
+187;茶;チャ、サ;ちゃ;tea;2;0;9;false;;k0187;-59,-2,-41
+188;昼;チュウ;ひる;noon, daytime;2;0;9;false;;k0188;-98,-97,-85,-48
+189;長;チョウ;なが・い;long, leader;2;0;8;false;;k0189;-76,0,0,-109
+190;鳥;チョウ;とり;bird, chicken;2;0;11;false;;k0190;-93,-72,-110,-63
+191;朝;チョウ;あさ、あした;morning;2;0;12;false;;k0191;-11,-39,-11,-40
+192;直;チョク、ジキ;なお・す;honesty, fix, repair, straightaway;2;0;8;false;;k0192;-11,-48,-111
+193;通;ソウ、ソ、トウ;かよ・う、とお・り、とおる;traffic, commute, pass through, avenue;2;0;10;false;;k0193;-112,-55,-67
+194;弟;ダイ;おとうと;younger brother;2;0;7;false;;k0194;-113,-98,-114,-76,-97
+195;店;テン;みせ;store, shop;2;0;8;false;;k0195;-76,-75,-76,-72,-14
+196;点;テン;・;spot, point, mark, decimal point;2;0;9;false;;k0196;-76,-72,-14,-63
+197;電;デン;・;electricity;2;0;13;false;;k0197;-49,-39,-106
+198;刀;トウ;かたな;sword, knife;2;0;2;false;;k0198;-71
+199;冬;トウ;ふゆ;winter;2;0;5;false;;k0199;-16,-115
+200;当;トウ;あ・て、あ・てる、あた・る;hit;2;0;6;false;;k0200;-99,-34
+201;東;トウ;ひがし;east;2;0;8;false;;k0201;-72,-39,-76,-2
+202;答;トウ;こたえ、こた・える;answer, solution;2;0;12;false;;k0202;-68,-2,-72,-14
+203;頭;トウ、ト、ズ;あたま、かしら;head;2;0;16;false;;k0203;-116,-77,-48,-2
+204;同;ドウ;おな・じ;same, equal, agree;2;0;6;false;;k0204;-4,-72,-14
+205;道;ドウ、トウ;みち;street, road-way, journey, course, teachings;2;0;12;false;;k0205;-83,-93,-72,-67
+206;読;ドク、トク、トウ;よ・み、よ・む;read;2;0;14;false;;k0206;-47,-15,-5,-3
+207;内;ナイ;うち;inside, within, between, house, home;2;0;4;false;;k0207;-4,-2
+208;南;ナン;みなみ;south;2;0;9;false;;k0208;-11,-4,-113,-28
+209;肉;ニク;・;meat;2;0;6;false;;k0209;-4,-2,-2
+210;馬;バ、マ;うま;horse;2;0;10;false;;k0210;-76,-52,-110,-63
+211;売;バイ;う・る;sell;2;0;7;false;;k0211;-15,-5,-3
+212;買;バイ;か・う;buy;2;0;12;false;;k0212;-5,-76,-76,-72,-48,-2
+213;麦;バク;むぎ;barley, wheat;2;0;7;false;;k0213;-52,-16
+214;半;ハン;なか・ば;half, middle, semi-;2;0;5;false;;k0214;-113,-28
+215;番;バン;つがい、つが・える;turn, number in a series;2;0;12;false;;k0215;-97,-70,-45
+216;父;フ;ちち;father;2;0;4;false;;k0216;-44
+217;風;フ、フウ;かぜ;wind, air, manner;2;0;9;false;;k0217;-97,-121,-97,-14,-76,-87
+218;分;ブン、フン、ブ;わ・かる、わ・ける、わか・れる;part, minute, share, degree;2;0;4;false;;k0218;-2,-7
+219;聞;ブン、モン;き・く、きこ・える;hear, ask, listen;2;0;14;false;;k0219;-39,-4,0,-50
+220;米;ベイ、マイ、メ;こめ;rice, USA;2;0;6;false;;k0220;-70
+221;歩;フ、ブ、ホ;ある・く、あうむ、あうみ;walk;2;0;8;false;;k0221;-43,-18,-97
+222;母;ボ、モ;はは;mother;2;0;5;false;;k0222;-117
+223;方;ホウ;かた;direction, person, alternative;2;0;4;false;;k0223;-1,-8
+224;北;ホク;きた;north;2;0;5;false;;k0224;-103,-9
+225;毎;マイ;・;every;2;0;6;false;;k0225;-79,-54
+226;妹;マイ;いもうと;younger sister;2;0;8;false;;k0226;-20,-72,-41
+227;万;マン、バン;よろず;ten thousand;2;0;3;false;;k0227;-72,-8
+228;明;メイ、ミョウ;あ・ける、あか・るい;light, bright;2;0;8;false;;k0228;-39,-40
+229;鳴;メイ;な・く、な・らす、な・る;chirp, cry, bark, sound;2;0;14;false;;k0229;-14,-93,-72,-110,-63
+230;毛;モウ;け;fur, hair, feather;2;0;4;false;;k0230;-118
+231;門;モン;かど;gate;2;0;8;false;;k0231;-39,-39
+232;夜;ヤ;よ、よる;night, evening;2;0;8;false;;k0232;-1,-56,-17,-85
+233;野;ヤ;の;plains, field, civilian life;2;0;11;false;;k0233;-14,-52,-112,-119
+234;友;ユウ;とも;friend;2;0;4;false;;k0234;-75,-13
+235;用;ヨウ;もち・いる;utilize, business, service, use;2;0;5;false;;k0235;-55
+236;曜;ヨウ;・;weekday;2;0;18;false;;k0236;-39,-34,-34,-56,-1,-76,0,-72
+237;来;ライ;く・る、きた・る;come, cause, become, next;2;0;7;false;;k0237;-72,-70
+238;里;リ;さと;village, parents home;2;0;7;false;;k0238;-14,-52
+239;理;リ;ことわり、すじ;logic, arrangement, reason, justice, truth;2;0;11;false;;k0239;-15,-122,-14,-52
+240;話;フ;はな・す、はなし;talk, tale;2;0;13;false;;k0240;-47,-84,-14
