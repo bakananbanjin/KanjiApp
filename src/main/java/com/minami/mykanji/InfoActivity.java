@@ -27,13 +27,6 @@ public class InfoActivity extends AppCompatActivity {
             }
         });
 
-        btnTemp = findViewById(R.id.btnInfoExport);
-        btnTemp.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                CSVreader.writeFileKanji("Kanji.csv", getApplicationContext(), MainActivity.getKanjiDAO().getKanjis());
-            }
-        });
 
         tvLink = findViewById(R.id.tvInfoLink);
         setTitle(getResources().getString(R.string.stringInfoTitle));
